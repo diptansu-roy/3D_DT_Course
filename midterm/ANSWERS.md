@@ -1,6 +1,6 @@
 # Midterm Assignment – Answer Sheet
 
-**Student name:** _your name_
+**Student name:** Diptansu Roy
 **Date:** _submission date_
 
 ## Preparation: existing Digital Twins
