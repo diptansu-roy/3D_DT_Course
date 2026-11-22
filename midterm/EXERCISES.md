@@ -80,22 +80,27 @@ Since I am quite a novice in working with Blender, I struggled a little when rem
   
 I may not use the entire workflow of creating a shapefile in QGIS and then exporting to Blender as I prefer using ArcGIS, however I shall definitely use the methods taught to separate faces in Blender.
 
-### Exercise A3: _name of the exercise_
+### Exercise A3: Creating a 3D building in Blender
 
 **Result**
 
-![Exercise A3 result](figures/track-a/a3_result.png)
-
-_Optional: link to an output file or online result._
+![Exercise A3 result]
+https://github.com/diptansu-roy/3D_DT_Course/blob/main/midterm/figures/track-a/Basic%20cube.mtl
+https://github.com/diptansu-roy/3D_DT_Course/blob/main/midterm/figures/track-a/Basic%20cube.obj
+https://github.com/diptansu-roy/3D_DT_Course/blob/main/midterm/figures/track-a/Building%20output.PNG
+https://github.com/diptansu-roy/3D_DT_Course/blob/main/midterm/figures/track-a/Cube%20output.PNG
+https://github.com/diptansu-roy/3D_DT_Course/blob/main/midterm/figures/track-a/building.fbx
 
 **Reflection**
 
 - **What did you do?**
-  _Your answer here._
+In this exercise I learnt more on how to use tools to make 3d models in Blender. TI used these tools (such as subdivide, loop cuts and extrusion, uv mapping) on a cube and then later made a 3d building from the 2d shapefile created earlier . I also assigned material to the faces of the building with different colours and textures (such as shine). The exercise also focused on checking whether all your faces of the model were facing the outside or not. Without this check, some of your walls may disappear.
+
+The 3d building I created had a outlet for the water to flow thorugh, windows, different floors and different textures for each material type (such as brown to showcase wooden frames).
 - **What did you struggle with, and how did you solve it?**
-  _Your answer here._
+ This was one of the easier exercises for me so the only thing which i struggled a little with was where to place my cursor when sub dividing or extruding to do it correctly. Sometimes the loop cuts made would be vertical instead of horizontal and so on. However, I dealt with them by simply practicing and having patience.
 - **How useful is it for your own digital twin? Will you use it in your final?**
-  _Your answer here._
+This exercise is extremely crucial in learning how to make a 3d model, therefore it remains one of the most useful things I shall use for my project. I aim to experiment more with blender to understand the tools better.
 
 ### Exercise A4: _name of the exercise_
 
