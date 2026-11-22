@@ -2,7 +2,7 @@
 
 ### LIST OF EXERCISES
 
-**Student name:** _your name_
+**Student name:** Diptansu Roy
 **Date:** _submission date_
 
 The exercises count for 5% of the final grade (results 2% + reflection 3%). Completing the other track as well gives a bonus of +2%.
@@ -20,7 +20,7 @@ The exercises count for 5% of the final grade (results 2% + reflection 3%). Comp
 
 - [ ] **Track A – no programming:** the 5 initial exercises
 - [ ] **Track B – advanced (programming needed):** cross-domain digital twin and sensor data integration
-- [ ] **Bonus:** I completed both tracks
+- [X] **Bonus:** I completed both tracks
 
 ---
 
@@ -37,11 +37,19 @@ _Optional: link to an output file or online result._
 **Reflection**
 
 - **What did you do?**
-  _Your answer here._
+  In the first exercise, I downloaded AHN height data (Digital Surface Model) and 3d building data for the University of Twente Campus area and prepared the files to be visualised in Twinmotion.
+
+After selecting the correct tiles and downloading AHN data, I processed it in TerraSculptor where I rescaled and cropped the DSM to the university campus area, compressed the image to reduce variability of height and resampled it to be used with Unreal Engine (Twinmotion). 
+
+For the 3D building data, i downloaded it from two different tiles as the campus is not fully covered by a single one. I chose to use the LOD 2.2 model for processing as I have good computing power. In Blender, I combined both the obj files, changed their orientation to North and made sure that each object can be separated individually later on (by using loose parts tool). Finally, I exported the output as another obj file.
+
 - **What did you struggle with, and how did you solve it?**
-  _Your answer here._
+ I was having quite a lot of trouble when fixing the orientation of the 3d bag data in Blender. Setting X,Y,Z coordinates to 0 would lead to a weird artifacting and distorted lines were created. A few of my peers were also facing this problem but none of us could understand why. After restarting blender 2-3 times, the problem went away.
+
 - **How useful is it for your own digital twin? Will you use it in your final?**
-  _Your answer here._
+  This exercise forms the base of creating a digital twin and therefore, it will be very important for my own digital twin model. It taught me how to collect raw data and pre-process it for visualisation.
+
+  I will definitely use these steps in my final if I choose to create a digital twin within the Netherlands using 3d Bag and Elevation data.
 
 ### Exercise A2: _name of the exercise_
 
