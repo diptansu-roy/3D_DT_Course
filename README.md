@@ -1,7 +1,7 @@
 # 3D Modelling for City Digital Twins – Student Submission
 
-**Student name:** _your name_
-**Student number:** _your number_
+**Student name:** Diptansu Roy
+**Student number:** s3785505
 **Area of interest / case study:** _short title_
 
 ## How to use this repository
