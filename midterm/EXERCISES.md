@@ -97,27 +97,39 @@ https://github.com/diptansu-roy/3D_DT_Course/blob/main/midterm/figures/track-a/b
 In this exercise I learnt more on how to use tools to make 3d models in Blender. TI used these tools (such as subdivide, loop cuts and extrusion, uv mapping) on a cube and then later made a 3d building from the 2d shapefile created earlier . I also assigned material to the faces of the building with different colours and textures (such as shine). The exercise also focused on checking whether all your faces of the model were facing the outside or not. Without this check, some of your walls may disappear.
 
 The 3d building I created had a outlet for the water to flow thorugh, windows, different floors and different textures for each material type (such as brown to showcase wooden frames).
+
 - **What did you struggle with, and how did you solve it?**
  This was one of the easier exercises for me so the only thing which i struggled a little with was where to place my cursor when sub dividing or extruding to do it correctly. Sometimes the loop cuts made would be vertical instead of horizontal and so on. However, I dealt with them by simply practicing and having patience.
+
 - **How useful is it for your own digital twin? Will you use it in your final?**
 This exercise is extremely crucial in learning how to make a 3d model, therefore it remains one of the most useful things I shall use for my project. I aim to experiment more with blender to understand the tools better.
 
-### Exercise A4: _name of the exercise_
+### Exercise A4: Creating a 3D road network from OSM data
 
 **Result**
 
-![Exercise A4 result](figures/track-a/a4_result.png)
-
-_Optional: link to an output file or online result._
+![Exercise A4 result]
+https://github.com/diptansu-roy/3D_DT_Course/blob/main/midterm/figures/track-a/Blender%20output%20Ex%204.PNG
+https://github.com/diptansu-roy/3D_DT_Course/blob/main/midterm/figures/track-a/QGIS%20Output%20Ex%204.PNG
+https://github.com/diptansu-roy/3D_DT_Course/blob/main/midterm/figures/track-a/buffer%201.rar
+https://github.com/diptansu-roy/3D_DT_Course/blob/main/midterm/figures/track-a/buffer%202.rar
+https://github.com/diptansu-roy/3D_DT_Course/blob/main/midterm/figures/track-a/road%20network%20clipped%20rd%20new.rar
+https://github.com/diptansu-roy/3D_DT_Course/blob/main/midterm/figures/track-a/road%20network.fbx
+https://github.com/diptansu-roy/3D_DT_Course/commit/e6c04c3261c881fdc47e69ae3047ccb9d3807f5e
 
 **Reflection**
 
 - **What did you do?**
-  _Your answer here._
+ I created a 3d model of the road network of the University of Twente campus area with QGIS and Blender. Firstly, I filtered and extracted the road network using Quick OSM and vector geoprocessing tools. I removed several attribute columns from the road types and turned them into shapefiles. The shapefiles of roads and the buffer of these roads were then exported into Blender to be converted into 3d fbx files to be used in Twinmotion later on for visualisation.
+
 - **What did you struggle with, and how did you solve it?**
-  _Your answer here._
+I struggled quite a bit with converting the osm data files into shapefiles due to there being too many attributes (shapfiles can only accept about 250 attributes). I thought I had deleted the extra unimportant columns from my data but the changes had not saved, so I could not understand why it was not working. I tried to convert them with a third party tool but Blender could not verify the geometry from those files. I ended up going back to QGIS and inspect each layer again where I found many of the changes I had made hadn't saved. So, I did them again and this time it worked perfectly.
+
+
 - **How useful is it for your own digital twin? Will you use it in your final?**
-  _Your answer here._
+Modelling a road network won't be quite as useful to me as I plan to focus on modelling one building accurately. However, It was quite helpful to learn on how extracting data from OSM works as I will use that for other purposes if not for my final project.
+
+I do not think I shall use road network modelling for my final.
 
 ### Exercise A5: _name of the exercise_
 
