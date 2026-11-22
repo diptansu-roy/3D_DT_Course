@@ -131,22 +131,25 @@ Modelling a road network won't be quite as useful to me as I plan to focus on mo
 
 I do not think I shall use road network modelling for my final.
 
-### Exercise A5: _name of the exercise_
+### Exercise A5: Using Twinmotion to Visualise Data
 
 **Result**
 
-![Exercise A5 result](figures/track-a/a5_result.png)
-
-_Optional: link to an output file or online result._
+![Exercise A5 result]
+https://github.com/diptansu-roy/3D_DT_Course/blob/main/midterm/figures/track-a/Exercise%205%20Output%20and%20Videos
 
 **Reflection**
 
 - **What did you do?**
-  _Your answer here._
+As a final culmination of all the other exercises, in this one I visualised 3d buildings, roads and the landscape using Twinmotion. The buildings, parking and roads of the University of Twente campus were loaded into Twinmotion as geometries along with my own building which I had previously modelled. All these elements were placed on top of the DSM I created in the very first exercise. Next, I tweaked the environment to add effects such as trees, grass, material on buildings, snow, rain, fog etc. I also added dynamic elements such as a cycling path and pedestrians. Finally, I exported a video showcasing my complete 3D model after troubleshooting and aligning everything.
+
 - **What did you struggle with, and how did you solve it?**
-  _Your answer here._
+The most trouble I faced was definitely aligning all the elements together as their pivots were not synced. Bringing them to 0,0,0 coordinates still put them afar as some had RD coordinates in them and other elements did not (like the DSM). I fixed it by centring the pivot.
+
+Being a computationally demanding software, Twinmotion also crashed making me lose some progress. Therefore, I did some of the steps twice and tried to reduce my graphics setting so that the software doesn't crash again.
+
 - **How useful is it for your own digital twin? Will you use it in your final?**
-  _Your answer here._
+Twinmotion provides a very flexible and user friendly way to demonstrate your 3d model and I deem it quite useful for my project. I shall definitely use it to showcase my final output, using it to develop more of the background scene and textures.
 
 ---
 
